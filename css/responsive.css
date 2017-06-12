@@ -1,5 +1,6 @@
 @media screen and (min-width: 300px) {
 
+
 	h1{
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -32,6 +33,31 @@ nav ul{
 	color: black;
 }
 
+
+.pager{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	list-style: none;
+	padding-bottom: 1%;
+	background-color: none;
+	font-weight: 600;
+	margin: 0 auto;
+    max-width: 85%;
+    padding-top: 5%;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+
+
+}
+
+
 .hello ul{
 	text-align: center;
 	padding: 0;
@@ -52,6 +78,7 @@ nav ul{
 */text-decoration: none;
 color: rgba(100,100,100,0.5);
 font-style: italic;
+outline: none;
 
 }
 
@@ -80,6 +107,23 @@ font-style: italic;
 	margin-left: 20%;
 	margin-top: 5%;
 
+}
+
+.description{
+	margin: 0 auto;
+	max-width: 85%;
+	margin-bottom: 3%;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 15px;
+	font-family: "PT Serif", serif;
+	color: rgb(34,34,34);
+	font-weight: 800;
+	font-style: italic;
+}
+
+.fa-sticky-note{
+	padding-right: 1%;
 }
 
 .profile-photo{
@@ -138,6 +182,13 @@ font-style: italic;
 	margin-top: 0;
 }
 
+#intro2 p{
+	padding: 0;
+	margin: 0 auto;
+	max-width: 85%;
+	margin-top: 5%;
+}
+
 .column-2{
 	padding-left: 0;
 	width: 100%;
@@ -181,6 +232,10 @@ font-style: italic;
 
 }
 
+footer p{
+	color: black;
+}
+
 /* hr{
 	width: 10px;
 	margin-left: 15%;
@@ -210,7 +265,7 @@ h4{
 }*/
 
 .carousel{
-    background: #2f4357;
+    background-color: transparent;
     margin-top: 20px;
     max-width: 100%;
 
@@ -226,16 +281,14 @@ h4{
   margin: 20px;
 }
 .carousel-control {
-    text-shadow: none;
-
+    /*text-shadow: 2px gray;*/
 }
 
 .glyphicon {
     font-size: 30px;
 }
-#myCarousel{
+#myCarousel, #myCarousel-2{
 	margin: 0 auto;
-
 }
 
 a:hover, a:focus { text-decoration: none;}
@@ -245,6 +298,11 @@ a:hover, a:focus { text-decoration: none;}
 
 
 }
+
+
+.carousel:hover .carousel-control {
+ opacity: 0.4;
+  }
 
 @media screen and (min-width: 480px) {
 
@@ -281,6 +339,29 @@ nav{
 	color: black;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.carousel{
+	width: 80%;
+	background-color: transparent;
+}
+.carousel-inner > .item {
+  height: 320px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-inner .item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
 
 #about{
 		margin: 0 auto;
@@ -300,38 +381,91 @@ nav{
 	max-width: 85%;
 }
 
-	.column-2{
+.column-2{
 	padding-left: 0;
 	width: 100%;
 	vertical-align: middle;
 	margin-top: 5%;
 }
 
+.column-2 p{
+	margin: 0 auto;
+	max-width: 75%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.column-2 h3{
+	margin: 0 auto;
+	max-width: 75%;
+	padding-left: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+}
+
+.column-2 h6{
+	margin: 0 auto;
+	max-width: 75%;
+	padding-left: 0;
+	margin-bottom: 3%;
+	margin-top: 0;
+}
+
+.column-2 img{
+	max-width: 60%;
+}
+
+.description{
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.pager{
+	margin: 0 auto;
+    max-width: 80%;
+}
+
 #intro p{
 	max-width: 75%;
-	margin-left: 10%;
-	margin-right: 7%;
-	margin-bottom: 0;
-	padding-bottom: 0;
+	margin: 0 auto;
+/*	margin-bottom: 0;
+	padding-bottom: 0;*/
+	margin-bottom: 5%
 
 }
+
+
 #intro h3, #intro h4, #intro h5, #intro h6 {
+	margin: 0 auto;
 	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
+	max-width: 75%;
 	padding-bottom: 0;
 	margin-bottom: 1%;
 }
 
+#intro h6{
+	margin-top: 2%;
+}
+
+#intro h3{
+	margin-top: 10%;
+}
+
+#intro h4{
+	margin-top: 2%;
+}
 
 #intro hr{
 	width: 6x;
-	margin-left: 10%;
+	margin-left: 12.5%;
 /*	padding-left: 3%;
 */	color: rgb(79,79,79);    
 	border: 1.5px solid rgb(79,79,79);
 	margin-bottom: 1.5%;
+}
 
+#intro2 hr{
+	margin-top: 0;
 }
 
 #gallery{
@@ -438,7 +572,7 @@ font-family: 'Open Sans', sans-serif;
 }
 }*/
 
-@media screen and (min-width:760px) {
+@media screen and (min-width:960px) {
 
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -454,9 +588,6 @@ h1{
 
 */	color: black;
 	margin-left: 14%;
-
-
-
 }
 
 .navbar-brand{
@@ -465,6 +596,29 @@ h1{
 	letter-spacing: 7px;
 	color: black;
 }
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.pager{
+	margin: 0 auto;
+    max-width: 80%;
+    margin-top: 0%;
+    padding-top: 5%;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: transparent;
+    border: 1px solid rgb(180,180,180);
+    border-radius: 20px;
+
+}
+
+
 /*nav{
 	text-align: center;
 	padding: 10px 0;
@@ -521,37 +675,83 @@ nav{
 	margin: 0 auto;
 	padding-bottom: 5%;
 }
+
+#intro2 p{
+	max-width: 85%;
+ 	margin: 0 auto;
+}
+
+.description{
+	max-width: 80%;
+	margin-bottom: 0;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0;
+	margin: 0 auto;
+	font-size: 18px;
+	font-family: "PT Serif", serif;
+	font-weight: 800;
+}
+
+
 /* Style all font awesome icons */
 .fa {
-    padding: 10px;
-    font-size: 100px;
+/*    padding: 10px;
+*/    font-size: 100px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-}
+/*    color: rgb(250, 99, 81);
+*/}
 
 /* Add a hover effect if you want */
-.fa:hover {
+/*.fa:hover {
     opacity: 0.7;
-}
+}*/
 
 .fa-facebook {
-    color: gray;
+    color: black;
+}
+
+.fa-facebook:hover{
+    color: rgb(250, 99, 81);
 }
 
 .fa-instagram {
-    color: gray;
+    color: black;
 }
 
-.fa-twitter {
-    color: gray;
+.fa-instagram:hover {
+    color: rgb(250, 99, 81);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-github:hover {
+    color: rgb(250, 99, 81);
 }
 
 .column-2{
-	width: 45%;
+	max-width: 50%;
 	vertical-align: middle;
 	margin-top: 5%;
-	padding-left: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.column-2 p, .column-2 h3, .column-2 h6{
+	max-width: 100%;
+}
+
+.column-2 video{
+	margin-left: 20px;
+}
+
+.column-2 img{
+	max-width: 80%;
 }
 
  .page-divider{
@@ -659,44 +859,50 @@ header{
 	margin-left: 0;
 }
 
-
 .carousel{
-/*    background: #2f4357;
-*/    margin-top: 20px;
-    max-width: 60%;
-
-/*    border: 5px solid white;
-*/
+	width: 80%;
+	background-color: transparent;
+}
+.carousel-inner > .item {
+  height: 455px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-inner .item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
+/*.item {
+height: 300px;
+}*/
 
-}
-.bs-example{
-  margin: 20px;
-}
-.carousel-control {
-    text-shadow: none;
 
+
+/*.up{
+	margin: -5% 0 0 0;
 }
 
+.upten{
+	margin: -10% 0 0 0;
+}*/
 .glyphicon {
     font-size: 100px;
 }
-#myCarousel{
+#myCarousel, #myCarousel-2{
 	margin: 0 auto;
-
-
 }
 
 a:hover, a:focus { text-decoration: none;}
 
 .carousel .carousel-control { visibility: hidden; }
 .carousel:hover .carousel-control { visibility: visible; }
+
 
 
 body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
@@ -708,8 +914,26 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 }
+
+
+@media screen and (min-width:900px) {
+.column-2{
+	width: 45%;
+	vertical-align: middle;
+	margin-top: 5%;
+	padding-left: 20px;
+/*	padding-right: 0px;
+*/}
+
+.column-2 video{
+	margin-left: 0px;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-left: 0;
+	margin-right: 0;
+}
 
+}
 
 
