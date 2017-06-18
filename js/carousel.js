@@ -28,4 +28,4 @@ var videoPlayButton,
         }
 	}
 
-videoMethods.renderVideoPlayButton()
+// videoMethods.renderVideoPlayButton()
