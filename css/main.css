@@ -749,6 +749,7 @@ html, body {
 
 .header {
   	height: 500px;
+  	top: 0px;
 }
 
 .parallax.header {
