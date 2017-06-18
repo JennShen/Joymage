@@ -750,6 +750,7 @@ html, body {
 .header {
   	height: 500px;
   	top: 0px;
+  	position: -webkit-sticky;
 }
 
 .parallax.header {
