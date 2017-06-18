@@ -745,6 +745,8 @@ html, body {
 	background-size: cover;
 	box-sizing: border-box;
 	width: 100%;
+	top: 0px;
+  	position: -webkit-sticky;
 }
 
 .header {
