@@ -790,6 +790,22 @@ html, body {
     box-shadow: -10px -10px 20px hsl(195, 16%, 49%);
 }
 
+
+.container {
+/*  overflow-y: scroll;
+*/  -webkit-overflow-scrolling: touch;
+}
+
+.parallax-container {
+  perspective: 1px;
+}
+
+.parallax-child {
+  position: -webkit-sticky;
+  top: 0px;
+  transform: translate(-2px) scale(3);
+}
+
 .circle {
   width: 30px;
   height: 30px;
