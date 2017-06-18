@@ -756,6 +756,7 @@ html, body {
     background-position: 50% 40%;
     margin-top: 0;
     padding-top: 0;
+    top: 0px;
 }
 
 .viewport {
@@ -791,9 +792,9 @@ html, body {
 }
 
 
-.container {
-/*  overflow-y: scroll;
-*/  -webkit-overflow-scrolling: touch;
+/*.container {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .parallax-container {
@@ -804,7 +805,7 @@ html, body {
   position: -webkit-sticky;
   top: 0px;
   transform: translate(-2px) scale(3);
-}
+}*/
 
 .circle {
   width: 30px;
